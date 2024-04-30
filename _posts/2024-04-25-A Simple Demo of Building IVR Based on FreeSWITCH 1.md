@@ -102,6 +102,8 @@ ln -sf /usr/local/freeswitch/bin/fs_cli /usr/local/bin/
 
 如果是公网环境，`external_rtp_ip` 和 `external_sip_ip` 配置为服务器公网IP（例如：`10.10.5.1`）。
 
+> 公网机器需要配置防火墙，开放 `SIP` （`15060/15061/15080/15081 UDP`）和 `RTP` 端口（`16384~32768 UDP`）
+
 - 修改FreeSWITCH启动加载模块配置
 
 编辑 `/usr/local/freeswitch/conf/autoload_configs/modules.conf.xml`，注释一些未安装的模块：
@@ -201,7 +203,7 @@ session:hangup()
 
 - 脚本API
 
-FreeSWITCH Lua流程的更多写法可以参考：[官方Lua API](https://developer.signalwire.com/freeswitch/FreeSWITCH-Explained/Client-and-Developer-Interfaces/Lua-API-Reference/)
+FreeSWITCH Lua流程的更多写法可以参考：[官方Lua API](https://developer.signalwire.com/freeswitch/FreeSWITCH-Explained/Modules/mod_lua_1048944/)
 
 ### 5. 参考资料
 
