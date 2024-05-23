@@ -2,7 +2,7 @@
 title: 基于FreeSWITCH搭建IVR的一个简单Demo（一）
 date: 2024-04-26 17:21:00 +0800
 categories: [呼叫中心]
-tags: [linux, lua]
+tags: [linux, lua, 0to1]
 ---
 
 本文介绍如何基于 `FreeSWITCH` 平台搭建一个简单的 `IVR`。
@@ -53,6 +53,8 @@ tags: [linux, lua]
 
 ```bash
 apt install -y libtool-bin pkg-config libpq-dev libtiff-dev libcurl4-dev libcurl4-openssl-dev libpcre3-dev libspeexdsp-dev libldns-dev libedit-dev libavformat-dev libswscale-dev
+
+apt install -y liblua5.1-0-dev # 注意一定要安装lua5.1，否则可能遇到兼容性问题
 ```
 
 有部分依赖 `apt` 仓库中的版本不满足要求，需要下载最新源码进行编译安装：

@@ -2,7 +2,7 @@
 title: 基于FreeSWITCH搭建IVR的一个简单Demo（二）
 date: 2024-04-30 17:24:00 +0800
 categories: [呼叫中心]
-tags: [linux, lua]
+tags: [linux, lua, 0to1]
 ---
 
 本文接上篇《基于FreeSWITCH搭建IVR的一个简单Demo（一）》，主要介绍如何集成`ASR`、`TTS`实现语音交互。
@@ -235,7 +235,20 @@ session:hangup()
 
 ![Demo流程图](assets/posts-img/004-flow.png)
 
-#### 4.2 交互流程
+#### 4.2 FreeSWITCH Lua脚本查找配置
+
+- 修改Lua模块配置
+
+编辑 `/usr/local/freeswitch/conf/autoload_configs/lua.conf.xml`，添加：
+
+``` xml
+<param name="script-directory" value="/usr/share/lua/5.1/?.lua"/>
+<param name="script-directory" value="$${script_dir}/?.lua"/>
+```
+
+修改后需重启FreeSWITCH。
+
+#### 4.3 交互流程
 
 在具体的流程实现上，首先配置dialplan并使之生效、新建对应的Lua脚本文件，配置Lua可以使用上一步的。
 
