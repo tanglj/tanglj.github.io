@@ -54,11 +54,15 @@ git clone https://github.com/username/username.github.io.git
 安装Ruby、Jekyll等依赖
 
 ```sh
-brew install ruby ruby-gem
-gem install jekyll bundler
+brew install chruby ruby-install
+ruby-install ruby 3.4.1
+echo "source $(brew --prefix)/opt/chruby/share/chruby/chruby.sh" >> ~/.zshrc
+echo "source $(brew --prefix)/opt/chruby/share/chruby/auto.sh" >> ~/.zshrc
+echo "chruby ruby-3.4.1" >> ~/.zshrc # run 'chruby' to see actual version
+gem install jekyll
 ```
 
-> 备注：不同系统有不同的的安装方式 [安装说明](https://jekyllrb.com/docs/installation/)
+> 备注：不同系统有不同的的安装方式，最新安装方式需要查看：[安装说明](https://jekyllrb.com/docs/installation/)
 
 > `brew/gem/bundler` 可设置速度更快的国内源，具体方法可使用搜索引擎
 
