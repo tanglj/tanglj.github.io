@@ -1,8 +1,9 @@
 ---
-title: 基于FreeSWITCH搭建IVR的一个简单Demo（三）
+title: 基于 FreeSWITCH 搭建 IVR 的一个简单 Demo（三）
 date: 2024-05-03 17:36:00 +0800
 categories: [呼叫中心]
 tags: [linux, lua, 0to1]
+comments: true
 ---
 
 本文接上篇《基于FreeSWITCH搭建IVR的一个简单Demo（二）》，主要介绍如何集成大模型实现更好的交互效果。

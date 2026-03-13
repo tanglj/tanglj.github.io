@@ -1,8 +1,9 @@
 ---
-title: PMP是什么，有什么价值
+title: PMP 是什么，有什么价值
 date: 2024-06-20 15:36:00 +0800
 categories: [项目和产品]
 tags: [pm]
+comments: true
 ---
 
 ### 1. PMP 简介

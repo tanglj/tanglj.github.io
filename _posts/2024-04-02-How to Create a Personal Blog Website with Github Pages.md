@@ -1,8 +1,9 @@
 ---
-title: 如何用Github Pages创建个人博客网站
+title: 如何用 Github Pages 创建个人博客网站
 date: 2024-04-03 22:41:00 +0800
 categories: [Github_Pages]
 tags: [web, tutorial]
+comments: true
 ---
 
 本文介绍使用**Github Pages**并选择Jekyll主题**Chirpy**，快速搭建个人博客网站。

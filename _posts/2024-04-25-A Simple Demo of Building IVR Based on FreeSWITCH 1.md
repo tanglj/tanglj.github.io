@@ -1,8 +1,9 @@
 ---
-title: 基于FreeSWITCH搭建IVR的一个简单Demo（一）
+title: 基于 FreeSWITCH 搭建 IVR 的一个简单 Demo（一）
 date: 2024-04-26 17:21:00 +0800
 categories: [呼叫中心]
 tags: [linux, lua, 0to1]
+comments: true
 ---
 
 本文介绍如何基于 `FreeSWITCH` 平台搭建一个简单的 `IVR`。

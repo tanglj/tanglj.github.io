@@ -3,6 +3,7 @@ title: 如何实现局域网机器的外部访问
 date: 2024-04-13 09:56:00 +0800
 categories: [计算机基础]
 tags: [linux]
+comments: true
 ---
 
 ### 1. 问题的产生
