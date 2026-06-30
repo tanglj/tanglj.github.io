@@ -4,5 +4,16 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+你好，我是 TangLj。
+
+长期关注 AI 客服、智能语音和大模型应用落地。过去十年，我从 NLP/ASR/TTS 引擎训练、智能客服平台产品设计，到政企大模型应用交付和客户成功运营，都有一线实践经验。
+
+我更关心技术如何真正进入业务现场：把需求拆清楚，把流程跑顺，把效果调到可用，并把一次项目里的经验沉淀成可复用的方法。
+
+目前主要记录这些内容：
+
+- AI 客服、智能语音与大模型应用
+- B 端产品设计、项目交付与客户成功
+- 编程实践、工具使用和个人学习笔记
+
+这个博客是我的公开笔记本。内容不求复杂，尽量写清楚一个问题、一个方案或一次实践。
